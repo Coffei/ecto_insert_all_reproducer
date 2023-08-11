@@ -25,8 +25,7 @@ config :insert_all_reproducer, InsertAllReproducerWeb.Endpoint,
   debug_errors: true,
   secret_key_base: "tQj2Kk2dKDecydrhmjxYVeEwNKAFNGRQB9tLetZAAsIQMRpltefmtERQCKmIibEm",
   watchers: [
-    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
-    tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
+    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
   ]
 
 # ## SSL Support
