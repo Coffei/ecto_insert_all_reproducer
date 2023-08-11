@@ -83,6 +83,7 @@ defmodule InsertAllReproducerWeb do
     quote do
       # HTML escaping functionality
       import Phoenix.HTML
+      import Phoenix.HTML.Form
       # Core UI components and translation
       import InsertAllReproducerWeb.CoreComponents
       import InsertAllReproducerWeb.Gettext

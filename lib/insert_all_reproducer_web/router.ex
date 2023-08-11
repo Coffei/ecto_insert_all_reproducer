@@ -18,6 +18,7 @@ defmodule InsertAllReproducerWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    post "/", PageController, :test
   end
 
   # Other scopes may use custom stacks.
